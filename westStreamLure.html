@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>台灣西部溪流 ✕ 觀光池路亞終極秘笈</title>
+    <style>
+        :root {
+            --primary: #0284c7;
+            --primary-dark: #0f172a;
+            --accent-orange: #ea580c;
+            --accent-green: #059669;
+            --bg-light: #f8fafc;
+            --card-bg: #ffffff;
+            --text-dark: #1e293b;
+            --border-color: #cbd5e1;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text-dark);
+            background-color: var(--bg-light);
+            margin: 0;
+            padding: 12px;
+        }
+
+        .container {
+            max-width: 950px;
+            margin: 0 auto;
+        }
+
+        header {
+            background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 50%, #0284c7 100%);
+            color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            font-size: 1.6rem;
+            margin: 0 0 8px 0;
+        }
+
+        header p {
+            margin: 0;
+            font-size: 0.95rem;
+            color: #bae6fd;
+        }
+
+        .section-header {
+            border-left: 5px solid var(--primary);
+            padding-left: 12px;
+            margin: 24px 0 12px 0;
+        }
+
+        .section-header h2 {
+            font-size: 1.3rem;
+            color: var(--primary-dark);
+            margin: 0;
+        }
+
+        .section-header .sub {
+            font-size: 0.85rem;
+            color: #64748b;
+        }
+
+        .card {
+            background: var(--card-bg);
+            border: 1px solid #e2e8f0;
+            border-radius: 8px;
+            padding: 16px;
+            margin-bottom: 16px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+        }
+
+        .card-accent { border-top: 4px solid var(--primary); }
+        .card-orange { border-top: 4px solid var(--accent-orange); }
+        .card-emerald { border-top: 4px solid var(--accent-green); }
+        .card-dark { border-top: 4px solid #475569; background-color: #f1f5f9; }
+
+        .tag {
+            display: inline-block;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 0.8rem;
+            font-weight: bold;
+            margin-right: 6px;
+        }
+
+        .tag-blue { background-color: #dbeafe; color: #1e40af; }
+        .tag-green { background-color: #d1fae5; color: #065f46; }
+        .tag-orange { background-color: #ffedd5; color: #9a3412; }
+        .tag-gray { background-color: #e2e8f0; color: #334155; }
+
+        .grid-2 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px;
+        }
+
+        @media (max-width: 650px) {
+            .grid-2 { grid-template-columns: 1fr; }
+            body { padding: 8px; }
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+            font-size: 0.88rem;
+        }
+
+        th, td {
+            border: 1px solid var(--border-color);
+            padding: 8px 10px;
+            text-align: left;
+            vertical-align: top;
+        }
+
+        th {
+            background-color: #f1f5f9;
+            color: var(--primary-dark);
+            font-weight: bold;
+        }
+
+        tr:nth-child(even) { background-color: #f8fafc; }
+
+        ul, ol {
+            margin: 4px 0 8px 0;
+            padding-left: 20px;
+        }
+
+        li { margin-bottom: 4px; }
+        
+        .hardware-box {
+            background-color: #eff6ff;
+            border: 1px solid #bfdbfe;
+            padding: 12px;
+            border-radius: 6px;
+            margin-bottom: 10px;
+        }
+        
+        .lure-box {
+            background-color: #f0fdf4;
+            border: 1px solid #bbf7d0;
+            padding: 12px;
+            border-radius: 6px;
+            margin-bottom: 10px;
+        }
+
+        .box-title {
+            font-weight: bold;
+            font-size: 0.95rem;
+            margin-bottom: 6px;
+            display: block;
+        }
+        .hardware-box .box-title { color: #1e40af; }
+        .lure-box .box-title { color: #166534; }
+
+        .step-condition {
+            background-color: #fff7ed;
+            border-left: 3px solid #ea580c;
+            padding: 6px 10px;
+            font-size: 0.85rem;
+            margin-top: 8px;
+            border-radius: 0 4px 4px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+
+        <!-- Header -->
+        <header>
+            <h1>台灣西部溪流 ✕ 觀光池路亞終極秘笈</h1>
+            <p>【三階計數流程 ✕ 換點決策鏈 ✕ 釣組假餌分離對照】</p>
+        </header>
+
+        <!-- 1. 七大釣組與假餌配對速查表 -->
+        <div class="section-header">
+            <h2>📌 核心速查：七大釣組與假餌精準配對表</h2>
+            <div class="sub">出門前快速對照：什麼釣組配什麼餌，絕不帶錯與搭錯</div>
+        </div>
+
+        <div class="card card-accent" style="overflow-x: auto;">
+            <table>
+                <thead>
+                    <tr>
+                        <th style="min-width: 120px;">釣組名稱 (Rig)</th>
+                        <th style="min-width: 150px;">【唯一搭配假餌】</th>
+                        <th style="min-width: 180px;">物理力學與水底姿態</th>
+                        <th style="min-width: 140px;">主要打擊對象/時機</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><b>7g 德州釣組<br>(Texas Rig)</b></td>
+                        <td><b>2.5吋 高浮水四尾蝦</b><br><small>(配 #1/0 號曲柄鉤)</small></td>
+                        <td>軀幹厚實能完美隱藏鉤尖，刷過水草枯枝 100% 防掛底；落底停頓時大螯向上張開呈張爪防禦態。</td>
+                        <td>障礙區破障、強流貼底慢平拖、泰國鱧 / 大福壽魚。</td>
+                    </tr>
+                    <tr>
+                        <td><b>Jig Rig<br>(吉格釣組)</b></td>
+                        <td><b>2.5吋 高浮水四尾蝦</b><br><small>(配快拆扣/檔豆+#1/0曲柄鉤+棒狀鉛)</small></td>
+                        <td>棒狀鉛直立探底卡在石縫外，<b>四尾蝦懸浮離底 1-3cm 露出爛泥青苔之上</b>，防卡縫且魚極易看到！</td>
+                        <td>池底滿是爛泥 / 青苔或密集碎石縫、重草洞砸草。</td>
+                    </tr>
+                    <tr>
+                        <td><b>Ned Rig<br>(奈德釣組)</b></td>
+                        <td><b>HR 迷人魚 2.6 吋</b><br><small>(配 2g~3g 平底蘑菇頭鉛頭鉤)</small></td>
+                        <td>平底蘑菇頭腳踩底層，迷人魚尾部具浮力，入水呈 <b>45°~90° 高角度直立站姿</b>，拖底時帶微擺。</td>
+                        <td>斜坡斷差極慢拖、老福壽魚 / 大嘴黑鱸。</td>
+                    </tr>
+                    <tr>
+                        <td><b>Free Rig<br>(自由釣組)</b></td>
+                        <td><b>HR 迷人魚 2.6 吋</b><br><small>(配 #2曲柄鉤 + 3.5g環狀棒狀鉛)</small></td>
+                        <td><b>重鉛先落底，迷人魚在後面「無重力自然緩沉 3-5 秒」</b>，魚吸入零阻力！竿頭壓低原地微抖深吞。</td>
+                        <td>冬日強風低溫天、極度貓口不開口魚 (如石頭池)。</td>
+                    </tr>
+                    <tr>
+                        <td><b>倒吊釣組<br>(Drop Shot)</b></td>
+                        <td><b>HR 迷人魚 2.6 吋</b><br><small>(或外掛<b>黑蚯蚓</b> / 生餌)</small></td>
+                        <td>倒吊鉛定錨池底，迷人魚<b>完全懸浮在青苔 / 爛泥上方 15-30cm</b>，原地點頭產生高頻震動強迫正吃。</td>
+                        <td>青苔厚重水域、老福壽 / 紅魔鬼目視狙擊、破龜。</td>
+                    </tr>
+                    <tr>
+                        <td><b>Neko Rig<br>(插鉛釣組)</b></td>
+                        <td><b>HR 迷人魚 2.6 吋</b><br><small>(下巴插 0.4g 插鉛 + 背部曲柄鉤)</small></td>
+                        <td>頭重尾輕姿態，中慢速平收時像極受傷游動的小魚，可在水草上方平收不貼底。</td>
+                        <td><b>拔珍珠石斑 (30cm+)</b>、水草上方掠食魚。</td>
+                    </tr>
+                    <tr>
+                        <td><b>微型複合亮片<br>(Micro Spinner)</b></td>
+                        <td><b>底部鉤子掛「2.5吋 四尾蝦」</b><br><small>(亮片 3.5g~5g)</small></td>
+                        <td>上方轉片高速旋轉閃爍推水，底部的四尾蝦增加體積與重量；突停時四尾蝦下落張爪誘爆口。</td>
+                        <td>水草邊緣速探、消波塊上方、泰國鱧 / 大福壽。</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- 2. 三階主力速探與精細切換心法 -->
+        <div class="section-header">
+            <h2>🎯 三階主力速探與拋投計數切換心法</h2>
+            <div class="sub">嚴格控管時間與拋投計數，建立高效能「探水 ➔ 破障 ➔ 磨底 ➔ 換點」決策鏈</div>
+        </div>
+
+        <!-- 第一階 -->
+        <div class="card card-accent">
+            <span class="tag tag-blue">第一階：水表與中層速探</span> <b>【目標：快速掃描水層活性，篩選積極魚群】</b>
+            <p><b>【主力配備】微鐵板 (3g~5g) / Megabass Cicada 水表蟬 (3.6g)</b></p>
+            <ul>
+                <li><b>操竿心法與手法：</b>
+                    <ul>
+                        <li><b>微鐵板：</b> 扇形遠投至河道，入水後倒數 1~3 秒，採「中高速平收」搜尋中上水層；或敲底後「大抽 2 下 ➔ 緊線沉降」抓反射咬口。</li>
+                        <li><b>水表蟬：</b> 瞄準岸邊樹蔭或流尾，高舉竿尖「極慢速拖動」，讓蟬翅在水面微幅震動產生水花漣漪，誘發大福壽與捲仔爆水表。</li>
+                    </ul>
+                </li>
+                <li><b>特殊狀況微調：</b> 若魚頻繁啄咬但嘴小咬不進，立刻換 <b>卑鄙釣組 (3g助投器+3g卑鄙)</b> 平收抓小嘴魚；若大魚退至開闊遠處，換 <b>7g Metal VIB / Spoon</b> 遠投。</li>
+            </ul>
+            <div class="step-condition">
+                <b>⏱️ 拋投門檻與進階觸發：</b><br>
+                在當前區域進行 <b>扇形拋投約 5 ~ 8 次</b>（左、中、右水層全部掃過一次）。<br>
+                👉 <b>若有爆水花或明確撞擊訊號：</b> 維持第一階快攻。<br>
+                👉 <b>若 8 次拋投完全無任何追咬撞擊：</b> 判定魚群沉底或躲入障礙，<b>立刻切換至第二階</b>！
+            </div>
+        </div>
+
+        <!-- 第二階 -->
+        <div class="card card-orange">
+            <span class="tag tag-orange">第二階：障礙破障與結構探底</span> <b>【目標：強攻草區、消波塊與底層結構】</b>
+            <p><b>【主力配備】7g 德州釣組 (配 2.5吋高浮水四尾蝦 + #1/0曲柄鉤) / 微型複合亮片</b></p>
+            <ul>
+                <li><b>操竿心法與手法：</b>
+                    <ul>
+                        <li><b>7g 德州釣組：</b> 貼著水草邊緣、消波塊縫隙拋投。落底後採<b>「輕跳 2 下 ➔ 停頓 2~3 秒」</b>。停頓時手腕保持微緊線，感受四尾蝦大螯向上張爪時的微弱吸口。強流區則採「貼底穩定慢平拖」。</li>
+                        <li><b>微型複合亮片：</b> 沿著水草牆平拖，中途「突停 1 秒」讓亮片帶四尾蝦下落張爪，誘發泰國呆爆口。</li>
+                    </ul>
+                </li>
+                <li><b>特殊狀況微調：</b> 若水底滿是爛泥或碎石縫，推緊擋豆切換為 <b>Jig Rig ＋ 四尾蝦</b>，棒狀鉛探底，軟蟲懸浮離底 1-3cm 露出泥外；若草區極密，加裝玻璃響珠發聲。</li>
+            </ul>
+            <div class="step-condition">
+                <b>⏱️ 拋投門檻與進階觸發：</b><br>
+                瞄準標點周圍的標誌結構（草洞、石縫、水門沖水區），進行 <b>精準標點拋投 6 ~ 10 次</b>。<br>
+                👉 <b>若草區冒氣泡、走線或有微弱拉扯：</b> 順線 1 秒後大力揚竿開槍硬飛！<br>
+                👉 <b>若 10 次拋投完全沒有敲底以外的咬訊：</b> 判定障礙區無主動攻擊魚，<b>立刻切換至第三階精細補刀</b>！
+            </div>
+        </div>
+
+        <!-- 第三階 -->
+        <div class="card card-emerald">
+            <span class="tag tag-green">第三階：精細補刀與定點磨底</span> <b>【目標：強迫極度貓口、警戒老魚正吃】</b>
+            <p><b>【主力配備】Ned Rig 奈德釣組 (配 HR 迷人魚 2.6吋 + 2g~3g 平底蘑菇頭)</b></p>
+            <ul>
+                <li><b>操竿心法與手法：</b>
+                    <ul>
+                        <li><b>Ned Rig 奈德：</b> 拋至斜坡或泥沙底，採<b>「極慢速貼底拖行 20cm ➔ 停頓 3~5 秒」</b>。平底蘑菇頭腳踩水底，迷人魚呈 45°~90° 高角度直立，老福壽魚會在停頓時一口吸入。</li>
+                        <li><b>Free Rig (冬日低溫/貓口)：</b> 拋投後讓重鉛先落底，<b>迷人魚在後方無重力自然緩沉 3~5 秒</b>。落底後壓低竿頭、原地輕抖手腕。</li>
+                        <li><b>倒吊釣組 (青苔厚重/目視)：</b> 倒吊鉛定錨底層，迷人魚懸浮青苔上方 15~30cm，<b>「原地點頭」5~10 秒</b>強迫正吃。</li>
+                    </ul>
+                </li>
+                <li><b>終極防守外掛：</b> 若連迷人魚都不開口，倒吊鉤直接掛<b>黑蚯蚓/生餌</b>做終極破龜。</li>
+            </ul>
+            <div class="step-condition">
+                <b>⏱️ 拋投門檻與換點觸發：</b><br>
+                在最有機會藏魚的精細標點，慢拖定點磨魚 <b>進行約 5 ~ 8 次高專注度拋投</b>。<br>
+                👉 <b>若魚吃進去：</b> 細線微物竿順勢帶竿著鉤！<br>
+                👉 <b>若經過 5~8 次定點磨底，連蚯蚓或奈德都完全無訊號：</b> 說明該區域目前**完全無魚或魚群已經受驚遠離**！
+            </div>
+        </div>
+
+        <!-- 換點決策鏈 -->
+        <div class="card card-dark">
+            <span class="tag tag-gray">🚪 終極決策</span> <b>【換點決策鏈：什麼時候該果斷打包換下一個場景？】</b>
+            <ul>
+                <li><b>換點鐵律（總拋投上限）：</b> 當你在同一個釣點（如某一段溪灣、某個水門或草區）<b>累計完成了三階戰術（約 20~25 次拋投），且耗時達 15~20 分鐘完全無咬訊</b>。</li>
+                <li><b>物理環境改變：</b> 水位大幅暴漲變混濁、水面出現大量死魚或油污、或有投網/拋甩網者干擾標點。</li>
+                <li><b>果斷執行：</b> 不要留戀！立刻打包裝備移動至下一個標點（如從水門換至下游匯流口，或從淺灘換至深潭區），重新執行「第一階水表速探」！</li>
+            </ul>
+        </div>
+
+        <!-- 3. 西部溪流目標魚種專用手法對照 -->
+        <div class="section-header">
+            <h2>🐟 西部溪流魚種：對應釣組與操竿手法</h2>
+            <div class="sub">針對台灣西部野溪、排水溝與觀光池常見魚種的專屬戰術</div>
+        </div>
+
+        <div class="card card-emerald" style="overflow-x: auto;">
+            <table>
+                <thead>
+                    <tr>
+                        <th style="min-width: 100px;">目標魚種</th>
+                        <th style="min-width: 150px;">對應最佳釣組與假餌</th>
+                        <th style="min-width: 250px;">專用操竿手法與物理細節</th>
+                        <th style="min-width: 110px;">西部經典標點</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><b>何氏棘魞<br>(捲仔)</b></td>
+                        <td>• <b>Megabass Cicada 水表蟬 (3.6g)</b><br>• Spoon 亮片 / 微鐵板 (3g~5g)</td>
+                        <td><b>【急流水表慢拖 ⇄ 巨石陰影快收】</b><br>夏日拋水表蟬至急流尾端極慢速平收，讓蟬翅振翅誘爆水花；或用 Spoon 拋至巨石後方陰影區順流快收，抓衝出爆口瞬間。</td>
+                        <td>台中大甲溪橋樑段、西部野溪溪谷。</td>
+                    </tr>
+                    <tr>
+                        <td><b>泰國鱧<br>(泰國呆)</b></td>
+                        <td>• <b>7g 德州釣組 / Jig Rig (配四尾蝦)</b><br>• 微型複合亮片 (底部掛四尾蝦)</td>
+                        <td><b>【草邊跳兩下 ⇄ 草洞砸重鉛 ⇄ 吐泡泡開槍】</b><br>四尾蝦精準拋水草邊，落底輕跳 2 下無咬即換洞。若草區極密，用 Jig Rig 棒狀鉛硬砸草洞，見吐氣泡或走線立刻大力開槍強拉！</td>
+                        <td>野溪排水溝、台中興大康橋草區、大里溪下。</td>
+                    </tr>
+                    <tr>
+                        <td><b>吳郭魚<br>(福壽魚)</b></td>
+                        <td>• <b>Ned Rig 奈德 (配迷人魚)</b><br>• Megabass Cicada 水表蟬<br>• 10g Metal VIB (水門)</td>
+                        <td><b>【斜坡極慢拖停 ⇄ 逆流振翅 ⇄ 水門大跳】</b><br>奈德搭迷人魚沿岸邊斜坡斷差極慢拖行、停頓 3-5 秒誘正吃；夏日水表蟬逆流慢拖；水門沖水區用 10g VIB 敲底大跳抓反射咬口。</td>
+                        <td>宜蘭雞哥池、台中市區溪流、旱溪、映彩湖。</td>
+                    </tr>
+                    <tr>
+                        <td><b>珍珠石斑<br>(30cm+)</b></td>
+                        <td>• <b>HR 迷人魚 2.6 吋 (Neko 0.4g 插鉛)</b><br>• 7g 德州釣組 (配四尾蝦)</td>
+                        <td><b>【水草上方中慢速平收 (不需貼底)】</b><br>珍珠極度依賴結構！將迷人魚 Neko 在水草上方 10-20 公分中慢速平收，石斑會從草縫衝出劫殺。咬第一口先放線，咬第二口扎實再開槍。</td>
+                        <td>台中康橋高台、淡水黑鱸俱樂部。</td>
+                    </tr>
+                    <tr>
+                        <td><b>紅魔鬼<br>(火口魚)</b></td>
+                        <td>• <b>HR 迷人魚 2.6 吋 (Neko / 汲頭鉤)</b><br>• <b>倒吊釣組 (配迷人魚)</b></td>
+                        <td><b>【50cm 攻擊圈目視狙擊 ⇄ 倒吊原地點頭】</b><br>看到魚影時，精準拋至嘴前 50cm 攻擊圈滑過，跟隨扣一下即咬口；貓口時用倒吊鉛定錨在底層，竿尖原地點頭強迫正吃。</td>
+                        <td>台中積善橋、康橋下游、台中筏子溪支流。</td>
+                    </tr>
+                    <tr>
+                        <td><b>曲腰魚<br>(總統魚)</b></td>
+                        <td>• <b>7g 微型 Metal VIB / 貝殼 Spoon</b><br>• 3g~5g 微鐵板 (遠投配置)</td>
+                        <td><b>【遠投中上層平收 ⇄ 突停自然沉降】</b><br>魚退至開闊遠處時，遠投 Metal VIB 在中上水層平收；或「連續小抽 2-3 下 ➔ 突停沉降 1-2 秒」，抓自然沉降瞬間的爆口訊號。</td>
+                        <td>中南部高鐵橋下平坦水泥岸邊。</td>
+                    </tr>
+                    <tr>
+                        <td><b>溪哥 / 馬口<br>(小型魚)</b></td>
+                        <td>• <b>卑鄙釣組 (3g 助投器 + 3g 卑鄙)</b><br>• 微型 Spoon (1.5g~2.5g)</td>
+                        <td><b>【淺灘與湍瀨快速中層平收】</b><br>瞄準溪流淺灘與水流交界處，中高速平收讓卑鄙的微型亮片旋轉閃爍，順流擺動誘發小嘴魚群追咬。</td>
+                        <td>西部淺灘野溪、山區溪流。</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- 4. 出門裝備清單 -->
+        <div class="section-header">
+            <h2>🎒 出門必帶：釣組零件與假餌歸類清單</h2>
+            <div class="sub">硬體歸硬體、假餌歸假餌，整理餌盒不混淆</div>
+        </div>
+
+        <div class="grid-2">
+            <!-- 釣組零件 -->
+            <div class="hardware-box">
+                <span class="box-title">🛠️ 1. 釣組與金屬零件 (Hardware List)</span>
+                <ul>
+                    <li><b>子彈鉛：</b> 7g 子彈型重鉛 × 3 個</li>
+                    <li><b>棒狀鉛：</b> 帶環棒狀自由鉛 3.5g (主力) / 2.5g / 5g 各 3 個</li>
+                    <li><b>奈德鉤：</b> 2g~3g 平底蘑菇頭鉛頭鉤 × 3 個</li>
+                    <li><b>倒吊鉛：</b> 2g~5g 棒狀 / 水滴型倒吊鉛 × 3 個</li>
+                    <li><b>曲柄鉤：</b> #1/0 號 (配四尾蝦) ＋ #2 號 (配迷人魚) 各 5 個</li>
+                    <li><b>卑鄙組：</b> 3g 助投器 ＋ 3g 卑鄙 (帶微型轉片) × 1~2 組</li>
+                    <li><b>配件包：</b> 橡膠擋豆 ＋ 玻璃響珠 ＋ 微型快拆扣 ＋ 0.4g 插鉛</li>
+                    <li><b>前導線：</b> 4 號碳纖線 (德州防切) ＋ 1.2~1.5 號碳纖線 (精細線)</li>
+                </ul>
+            </div>
+
+            <!-- 假餌清單 -->
+            <div class="lure-box">
+                <span class="box-title">🐟 2. 假餌與軟蟲清單 (Lures & Soft Baits)</span>
+                <ul>
+                    <li><span class="tag tag-orange">主力軟蟲</span> <b>2.5 吋高浮水四尾蝦 / 雙尾蝦 × 1 包</b><br><small>(德州 / Jig Rig / 複合亮片通用)</small></li>
+                    <li><span class="tag tag-green">精細軟蟲</span> <b>HR 迷人魚 2.6 吋 × 1 包</b><br><small>(Ned / Free Rig / 倒吊 / Neko 通用)</small></li>
+                    <li><span class="tag tag-blue">水表硬餌</span> <b>Megabass Cicada 水表蟬 (3.6g) × 1 隻</b></li>
+                    <li><span class="tag tag-blue">快攻鐵板</span> <b>微鐵板 (3g~5g) × 2 隻 (金/銀)</b></li>
+                    <li><span class="tag tag-blue">遠投強流</span> <b>7g 微型 Metal VIB / 貝殼 Spoon × 1 隻</b></li>
+                    <li><span class="tag tag-blue">草邊鋼絲</span> <b>微型複合式亮片 (3.5g~5g) × 2 隻</b></li>
+                    <li><span class="tag tag-green">終極外掛</span> <b>盒裝黑蚯蚓 / 生餌</b> (掛倒吊鉤破龜)</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
